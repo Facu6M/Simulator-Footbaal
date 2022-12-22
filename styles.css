@@ -1,0 +1,99 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    color: white;
+}
+
+body{
+    background: url("https://img.freepik.com/vector-premium/imagen-fondo-copa-mundial-fifa-qatar-2022-fondo-color-granate_741253-3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 17px;
+}
+
+h1{
+    text-align: center;
+}
+
+main div img{
+    height: 45px;
+    width: 45px;
+}
+
+main{
+display: flex;
+justify-content: space-between;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    cursor: pointer;
+    color: black;
+    height: 20px;
+    width: 100px;
+    border: 0px solid;
+    background-color: rgb(88, 46, 46);
+}
+
+#div{
+    display: flex;
+    align-items: center;
+    padding: 50px ;
+}
+
+/* OCTAVOS */
+
+#middle{
+    margin-top: 40px;
+    display: grid;
+    align-items: center;
+    text-align: center;
+}
+
+#middle div{
+    width: 80px;
+    height: 50px;
+    border-radius: 20%;
+    background-color: rgb(33, 30, 29);
+}
+
+/* FASE ELIMINATORIA */
+
+#eliminatoria{
+    margin-top: 50px;
+    display: grid;
+    align-items: center;
+    text-align: center;
+}
+
+#eliminatoria div{
+    width: 80px;
+    height: 60px;
+    border-radius: 20%;
+    background-color: rgb(33, 30, 29);
+}
+
+
+.final{
+    margin-top: 200px;
+    display: grid;
+    align-items: center;
+}
+
+.final div{
+    background-color: rgb(29, 29, 55);
+    width: 100px;
+    height: 60px;
+    border-radius: 20%;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 140px;
+}
